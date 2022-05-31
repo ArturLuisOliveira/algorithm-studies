@@ -1,7 +1,9 @@
 import { minNumberOfNotesChange } from "./minNumberOfNotesChange";
 
 describe("min coin change", () => {
-  const coins = [2, 5, 10, 20, 50, 100, 200];
+  const coins = [
+    2, 5, 10, 20, 50, 100, 200
+  ];
 
   test("should return the minimum number of notes change", () => {
     const expected: {
