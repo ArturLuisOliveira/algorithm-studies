@@ -1,5 +1,6 @@
-//top down approach
-
+/**
+ * TODO: Memoization
+ */
 export const minNumberOfNotesChange = ({
   coins = [2, 5, 10, 20, 50, 100],
   amount,
